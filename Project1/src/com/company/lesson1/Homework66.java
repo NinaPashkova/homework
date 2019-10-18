@@ -7,18 +7,29 @@ public class Homework66 {
         System.out.println("Enter numbers: ");
         Scanner sc = new Scanner(System.in);
         String commandLine = sc.nextLine();
+        String happyNumbers = "";
         String[] numbersLine = commandLine.trim().split(" ");
-        int[] numbers = new int[numbersLine.length];
+
         for (int i = 0; i < numbersLine.length; i++) {
-            numbers[i] = Integer.parseInt(numbersLine[i]);
+            if (numbersLine[i].length() % 2 == 0) {
+                int midOfLine = numbersLine[i].length() / 2;
+                String firstNumber = numbersLine[i].substring(0, midOfLine);
+                String secondNumber = numbersLine[i].substring(midOfLine);
+                String[] firstNumbers = firstNumber.split("");
+                String[] secondNumbers = secondNumber.split("");
+                int firstSum = 0;
+                int secondSum = 0;
+                for (int j = 0; j < firstNumbers.length; j++) {
+                   firstSum += Integer.parseInt(firstNumbers[j]);
+                   secondSum += Integer.parseInt(secondNumbers[j]);
+                }
+
+                if (firstSum == secondSum) {
+                    happyNumbers += numbersLine[i] + " ";
+                }
+
+            }
         }
-        for (int i = 0; i < numbers.length; i++) {
-            String currentNumber = "";
-            currentNumber += numbers[i];
-            if (currentNumber.length()%2 == 0){
-            int midOfLine = currentNumber.length()/2;
-            String[] currentNumberArr = currentNumber.trim().split("", 2);
-            String ourNumber = "";
-        }
+        System.out.println("Happy numbers: " + happyNumbers);
     }
 }
