@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a238da6-1387-4e57-9a5e-4dba39b5bc2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/lesson3/Lesson31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson3/Lesson31.java" afterDir="false" />
     </list>
     <list id="130f1ef0-67a1-415b-9d26-35f177d7f121" name="Revert &quot;lesson3211&quot;" comment="Revert &quot;lesson3211&quot;&#10;&#10;This reverts commit 9da82cb3" />
@@ -21,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$/.." value="lesson3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />

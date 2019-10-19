@@ -11,6 +11,11 @@ public class Lesson31 {
         System.out.println("ttt");
         System.out.println("ttt");
         System.out.println("ttt");
+        System.out.println("678");
+        System.out.println("678");
+        System.out.println("678");
+        System.out.println("678");
+
     }
 
 }
