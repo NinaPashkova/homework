@@ -10,7 +10,9 @@ public class Lesson31 {
         System.out.println("ttt");
         System.out.println("ttt");
         System.out.println("ttt");
-        System.out.println("677");
+        System.out.println("67");
+        System.out.println("67");
+        System.out.println("67");
         System.out.println("678");
         System.out.println("678");
         System.out.println("678");
