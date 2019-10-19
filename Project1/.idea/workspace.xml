@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a238da6-1387-4e57-9a5e-4dba39b5bc2f" name="Default Changelist" comment="Homewar66">
-      <change afterPath="$PROJECT_DIR$/out/production/Project1/com/company/lesson1/Homework67.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/lesson1/Homework67.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/lesson3/Lesson31.java" afterDir="false" />
+    <list default="true" id="1a238da6-1387-4e57-9a5e-4dba39b5bc2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project1/com/company/lesson1/Homework66.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project1/com/company/lesson1/Homework66.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="lesson2" />
+        <entry key="$PROJECT_DIR$/.." value="e116459ba73baf8864b3956e7c8745d0b7f3203d" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -152,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571425563644</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson32">
+      <created>1571465814331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571465814331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homewar66" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homewar66" />
+    <MESSAGE value="lesson32" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson32" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
