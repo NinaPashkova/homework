@@ -8,6 +8,8 @@ public class Lesson31 {
         System.out.println("ttt");
         System.out.println("ttt");
         System.out.println("ttt");
+        System.out.println("ttt");
+        System.out.println("ttt");
     }
 
 }
