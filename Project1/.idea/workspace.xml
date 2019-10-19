@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a238da6-1387-4e57-9a5e-4dba39b5bc2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/lesson3/Lesson31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/lesson3/Lesson31.java" afterDir="false" />
     </list>
     <list id="130f1ef0-67a1-415b-9d26-35f177d7f121" name="Revert &quot;lesson3211&quot;" comment="Revert &quot;lesson3211&quot;&#10;&#10;This reverts commit 9da82cb3" />
@@ -21,10 +22,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$/.." value="newbranch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1RV0YjFHnM0I9cdOq7rrDjTHBm6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -156,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571465814331</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="newlesson">
+      <created>1571470734292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571470734292</updated>
+    </task>
+    <task id="LOCAL-00004" summary="newlesson">
+      <created>1571470958317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571470958317</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homewar66" />
     <MESSAGE value="lesson32" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson32" />
+    <MESSAGE value="newlesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="newlesson" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
