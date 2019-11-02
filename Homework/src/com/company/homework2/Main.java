@@ -157,7 +157,7 @@ public class Main {
                 maxSameNumbers = numbersLine[i].length()-numberMatches[i];
             }
         }
-        System.out.println("Number which contains minimumum different numbers: " + numbersLine[maxSameNumbersIndex]);
+        System.out.println("Number which contains minimum different numbers: " + numbersLine[maxSameNumbersIndex]);
     }
     private static boolean isNumberAlreadyChecked(int[] checkedNumbers, int currentNumber) {
         for (int checkedNumber : checkedNumbers) {

@@ -13,8 +13,8 @@ public class Main {
         String commandLine = enterNumbers();
         evenOddNumbers(commandLine);
         maxAndMinNumber(commandLine);
-        numberThanDividedBy3and9(commandLine);
-        numberThanDividedBy5and7(commandLine);
+        numberThatDividedBy3and9(commandLine);
+        numberThatDividedBy5and7(commandLine);
         uniqueDigits(commandLine);
         happyNumbers(commandLine);
         elementsHalfSumofNeighbours(commandLine);
@@ -134,7 +134,7 @@ public class Main {
 
     // task 6.3 Числа, которые делятся на 3 или на 9
 
-    public static void numberThanDividedBy3and9(String commandLine) {
+    public static void numberThatDividedBy3and9(String commandLine) {
         String numbers = "";
         for (String i : commandLine.trim().split(" ")) {
             int number = Integer.parseInt(i);
@@ -147,7 +147,7 @@ public class Main {
 
     //task 6.4 Числа, которые делятся на 5 и на 7
 
-    public static void numberThanDividedBy5and7(String commandLine) {
+    public static void numberThatDividedBy5and7(String commandLine) {
         String numbers = "";
         for (String i : commandLine.trim().split(" ")) {
             int number = Integer.parseInt(i);
