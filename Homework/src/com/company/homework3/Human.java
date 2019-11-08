@@ -10,8 +10,42 @@ public abstract class Human {
     protected float height;
     protected float weight;
 
+    public Human(boolean gender, String name, String surname, float height, float weight) {
+        setGender(gender);
+        setName(name);
+        setSurname(surname);
+        setHeight(height);
+        setWeight(weight);
+    }
+
+    public abstract Human haveARelationship(Human human);
+
     public boolean isGender() {
         return gender;
+    }
+
+    public void setGender(boolean gender) {
+        this.gender = gender;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public float getHeight() {
+        return height;
     }
 
     public void setHeight(float height) {
@@ -22,16 +56,8 @@ public abstract class Human {
         }
     }
 
-    public void setGender(boolean gender) {
-        this.gender = gender;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public float getWeight() {
+        return weight;
     }
 
     public void setWeight(float weight) {
@@ -40,22 +66,6 @@ public abstract class Human {
         } else {
             System.out.println("Invalid height");
         }
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public float getHeight() {
-        return height;
-    }
-
-    public float getWeight() {
-        return weight;
     }
 
     @Override
@@ -74,17 +84,6 @@ public abstract class Human {
                 ", weight=" + weight +
                 '}';
     }
-
-
-    public Human(boolean gender, String name, String surname, float height, float weight) {
-        setGender(gender);
-        setName(name);
-        setSurname(surname);
-        setHeight(height);
-        setWeight(weight);
-    }
-
-    public abstract Human haveARelationship(Human human);
 
     public Boolean speak(Human human) {
         System.out.println("Cheking if they can speak or not");

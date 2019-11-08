@@ -2,8 +2,7 @@ package com.company.homework3;
 
 import java.util.Scanner;
 
-public class Woman extends Human {
-
+public class Woman extends Human implements Pregnantable{
 
     public Woman(String name, String surname, float height, float weight) {
         super(false, name, surname, height, weight);

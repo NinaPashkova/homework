@@ -2,11 +2,9 @@ package com.company.homework3;
 
 public class Man extends Human {
 
-
     public Man(String name, String surname, float height, float weight) {
         super(true, name, surname, height, weight);
     }
-
 
     @Override
     public Human haveARelationship(Human human) {
