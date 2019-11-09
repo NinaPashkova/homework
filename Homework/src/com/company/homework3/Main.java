@@ -17,9 +17,6 @@ public class Main {
             System.out.println("We successfully created a baby!");
             System.out.println(baby);
         }
-        //}
-
-
     }
 
     public static Human createHuman(String personLine) {
